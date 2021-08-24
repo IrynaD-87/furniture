@@ -1,0 +1,55 @@
+.try {
+    padding: 139px 0 74px;
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    &__text {
+        width: 55%;
+        padding-right: 218px;
+    }
+
+    &__title {
+        display: block;
+        color: $white-color;
+        font: $h1-font;
+        text-shadow: 2px 2px 3px $main-color;
+    }
+
+    &__subtitle {
+        display: block;
+        color: $black-color;
+        font: $h1-font;
+        margin-bottom: 93px;
+    }
+
+    &__btn {
+        max-width: 240px;
+
+        .btn {
+            font: $h5-font;
+            padding: 29px 69px;
+        }
+    }
+
+    &__img {
+        width: 45%;
+        max-height: 714px;
+        padding-right: 61px;
+        position: relative;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 64%;
+            padding-top: 37%;
+            background-image: url(../img/heading-decor.svg);
+            background-repeat: no-repeat;
+            right: -28px;
+            bottom: 15px;
+            z-index: -1;
+        }
+    }
+}
