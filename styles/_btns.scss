@@ -1,0 +1,41 @@
+.btn {
+    display: block;
+    width: 100%;
+    padding: 26px 55px;
+    text-align: center;
+    font: 600 22px/1.22 $montserrat-font;
+    background-color: $primary-color;
+    color: $white-color;
+    border: none;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:hover {
+        background-color: $main-color;
+    }
+
+    &:focus {
+        $main-color:#282A30;
+        background-color: rgba($main-color, 0.8);
+    }
+
+    &[disabled],
+    &.disabled {
+        pointer-events: none;
+        opacity: .6;
+    }
+}
+
+.btn-icon {
+    background-color: transparent;
+    color: $black-color;
+    border: none;
+    line-height: 1;
+    padding: 0;
+    cursor: pointer;
+    transition: all .3s;
+
+    &:hover {
+        color: $primary-color;
+    }
+}

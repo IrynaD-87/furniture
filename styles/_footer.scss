@@ -1,0 +1,46 @@
+.footer {
+    padding-top: 74px;
+
+    &__wrap {
+        border-top: 2px solid $black-color;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text {
+        text-align: center;
+        font: $h5-font;
+        color: $black-color;
+    }
+
+    &__left {
+        width: 20%;
+        margin-top: 100px;
+    }
+
+    &__midle-one,
+    &__midle-two,
+    &__right {
+        margin-top: 100px;
+    }
+
+    &__nav-item:not(:last-child) {
+        margin-bottom: 27px;
+    }
+
+    &__nav-item {
+        margin-top: 51px;
+        font: 400 18px/1.2 $montserrat-font;
+        color: rgba(40, 42, 48, .8);;
+
+        .footer-href {
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+
+    }
+
+    
+}
