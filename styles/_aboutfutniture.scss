@@ -39,7 +39,6 @@
         position: absolute;
             content: '';
             width: 80%;
-            // padding-bottom:50%;
             left: 92px;
             bottom: -87px;
             z-index: 1;  
@@ -60,8 +59,7 @@
     &__title {
         display: block;
         color: $black-color;
-        font: $h2-font;
-        
+        font: $h2-font; 
     }
 
     &__subtitle {
