@@ -1,0 +1,90 @@
+.aboutfurniture {
+    padding: 160px 0 147px;
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img {
+        width: 50%;
+        max-height: 723px;
+        padding-right: 128px;
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: '';
+            width: 404px;
+            height: 305px; 
+            background-color: $black-color;
+            right: 49px;
+            bottom: 86px;
+            z-index: -1;   
+        }
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 205px;
+            height: 180px; 
+            background-color: $black-color;
+            left: -48px;
+            bottom: 22px;
+            z-index: -2;            
+        }
+        
+    }
+    &__img-back {
+        position: absolute;
+            content: '';
+            width: 80%;
+            // padding-bottom:50%;
+            left: 92px;
+            bottom: -87px;
+            z-index: 1;  
+        }
+
+    &__images {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    &__text {
+        width: 50%;
+    }
+
+    
+    &__title {
+        display: block;
+        color: $black-color;
+        font: $h2-font;
+        
+    }
+
+    &__subtitle {
+        display: block;
+        color: $white-color;
+        font: $h1-font;
+        margin-bottom: 55px;
+        text-shadow: 2px 2px 3px $main-color;
+    }
+
+    &__info {
+        font: $main-font;
+        margin-bottom: 48px;
+        color: rgba(40, 42, 48, 0.5);
+    }
+
+    &__btn {
+        max-width: 230px;
+
+        .btn {
+            font: 600 22/1.2 $montserrat-font;
+            padding: 25px 52px;
+        }
+    }
+
+}

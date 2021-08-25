@@ -1,15 +1,42 @@
 .heading {
     padding: 20px 0 160px;
+    position: relative;
+
+    &:after {
+        position: absolute;
+        content: '';
+        width: 35px;
+        height: 264px;
+        background-color: $primary-color;
+        left: 0px;
+        top: 20px;
+        z-index: -2;            
+    }
 
     &__wrap {
         display: flex;
         align-items: center;
+        position: relative;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 896px;
+            height: 698px;
+            background-image: url(../img/heading-full.svg);
+            background-repeat: no-repeat;
+            right: 0;
+            top: 0px;
+            left: 0;
+            z-index: -1;
+        }
     }
 
     &__text {
         width: 59%;
         padding-right: 87px;
-
+        // position: relative;
+        padding-left: 65px;
     }
 
     &__img {
@@ -25,7 +52,7 @@
             height: 100%;
             right: 0;
             bottom: -65px;
-            background-color: #E5E5E5;
+            background-color: rgba(#E5E5E5, .1);
             z-index: -2;
         }
 
@@ -82,7 +109,6 @@
     }
 
     &__btn-watch {
-        // padding-left: 82px;
         position: relative;
         font-weight: 600;
         color: $main-color;
