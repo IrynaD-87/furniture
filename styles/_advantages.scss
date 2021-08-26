@@ -1,0 +1,94 @@
+.advantages {
+    padding: 103px 0 133px;
+
+    &__label {
+        display: block;
+        font: $h4-font;
+    }
+
+    &__caption {
+        display: block;
+        font: $h1-font;
+        text-shadow: 0 0 2px $main-color;
+        color: $white-color;
+        margin-bottom: 87px;
+    }
+
+    &__wrap {
+        position: relative;
+        padding: 51px 90px 84px 120px;
+    }
+
+    &__img {
+        background-size: cover;
+        background-position: 50% 50%;
+        padding-bottom: 57%;
+        box-shadow: 0 4px 100px rgba($black-color, .25);
+        position: relative;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 482px;
+            height: 306px;
+            left: 70px;
+            bottom: -192px;
+            z-index: -1;
+        }
+    }
+
+    &__card {
+        max-width: 450px;
+        box-shadow: 20 4px 100px rgba($black-color, .1);
+        background-color: $white-color;
+        padding: 44px 44px 62px 44px;
+        display: flex;
+        position: absolute;
+
+        &--full-services {
+            left: 0;
+            top: 141px;
+        }
+
+        &--long {
+            top: 0;
+            right: 131px;
+        }
+
+        &--modern {
+            right: 0;
+            bottom: 0;
+        }
+    }
+
+    &__number {
+        min-width: 51px;
+        width: 51px;
+        height: 51px;
+        border-radius: 50%;
+        background-color: rgba($primary-color, .05);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font: $h6-font;
+        color: $primary-color;
+        margin-top: -13px;
+    }
+
+    &__text {
+        padding-left: 22px;
+
+    }
+
+    &__title {
+        display: block;
+        font: $h6-font;
+        margin-bottom: 13px;
+    }
+
+    &__info {
+        font: 400 14/1.36 $nunito-font;
+       color: rgba($main-color, .4);
+
+    }
+}
