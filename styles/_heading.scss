@@ -26,7 +26,7 @@
             background-image: url(../img/heading-full.svg);
             background-repeat: no-repeat;
             right: 0;
-            top: 0px;
+            top: 0;
             left: 0;
             z-index: -1;
         }
@@ -35,13 +35,12 @@
     &__text {
         width: 59%;
         padding-right: 87px;
-        // position: relative;
         padding-left: 65px;
     }
 
     &__img {
         width: 41%;
-        max-height: 698px;
+        height: 698px;
         padding-right: 36px;
         position: relative;
 
@@ -91,8 +90,7 @@
         display: block;
         font: $h3-font;
         margin-bottom: 41px;
-        letter-spacing: 3px;
-        
+        letter-spacing: 3px;  
     }
 
     &__btns {
@@ -102,7 +100,6 @@
     }
 
     &__btn {
-        
         &:not(:last-child) {
             margin-right: 67px;
         }
@@ -124,8 +121,7 @@
             box-shadow: 0px 4px 70px ;
             left: 0;
             top: 50%;
-            transform: translateY(-50%);
-            
+            transform: translateY(-50%); 
         }
 
         &:after {
@@ -136,7 +132,6 @@
             left: 26px;
             top: 50%;
             transform: translateY(-50%);
-            
         }
     }
 }

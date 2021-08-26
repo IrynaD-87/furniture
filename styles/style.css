@@ -206,7 +206,7 @@ a {
   background-image: url(../img/heading-full.svg);
   background-repeat: no-repeat;
   right: 0;
-  top: 0px;
+  top: 0;
   left: 0;
   z-index: -1;
 }
@@ -217,7 +217,7 @@ a {
 }
 .heading__img {
   width: 41%;
-  max-height: 698px;
+  height: 698px;
   padding-right: 36px;
   position: relative;
 }
@@ -332,7 +332,7 @@ a {
 }
 .try__img {
   width: 45%;
-  max-height: 714px;
+  height: 714px;
   padding-right: 61px;
   position: relative;
 }
@@ -372,7 +372,7 @@ a {
   content: "";
   width: 404px;
   height: 305px;
-  background-color: #000;
+  background-color: #282A30;
   right: 49px;
   bottom: 86px;
   z-index: -1;
@@ -382,7 +382,7 @@ a {
   content: "";
   width: 205px;
   height: 180px;
-  background-color: #000;
+  background-color: #282A30;
   left: -48px;
   bottom: 22px;
   z-index: -2;
@@ -406,7 +406,7 @@ a {
 }
 .aboutfurniture__title {
   display: block;
-  color: #000;
+  color: #282A30;
   font: 700 60px/1.22 "Montserrat", Arial, Helvetica, sans-serif;
 }
 .aboutfurniture__subtitle {

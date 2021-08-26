@@ -17,7 +17,7 @@
             content: '';
             width: 404px;
             height: 305px; 
-            background-color: $black-color;
+            background-color: $main-color;
             right: 49px;
             bottom: 86px;
             z-index: -1;   
@@ -28,7 +28,7 @@
             content: '';
             width: 205px;
             height: 180px; 
-            background-color: $black-color;
+            background-color: $main-color;
             left: -48px;
             bottom: 22px;
             z-index: -2;            
@@ -58,7 +58,7 @@
     
     &__title {
         display: block;
-        color: $black-color;
+        color: $main-color;
         font: $h2-font; 
     }
 
